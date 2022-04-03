@@ -16,6 +16,30 @@ body {
     background-position: bottom;
 }
 
+/* highlights */
+::selection { 
+  background-color: rgba(255, 158, 145, 0.9) !important;
+  color: #13283a;
+  text-shadow: none;
+}
+
+a::selection { 
+  background-color: rgba(255, 158, 145, 0.9) !important;
+  color: rgba(225, 235, 208,1) !important;
+}
+
+a:hover::selection { 
+  background-color: rgba(255, 158, 145, 0.9) !important;
+  color: #13283a !important;
+}
+
+::-moz-selection { 
+  background-color: rgba(255, 158, 145, 0.9) !important;
+  color: #13283a;
+  text-shadow: none;
+  transition: all .25s linear;
+}
+
 a {
     color: rgb(255, 158, 145);
     text-decoration: none;

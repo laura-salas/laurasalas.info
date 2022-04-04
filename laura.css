@@ -12,6 +12,7 @@ body {
     background-image: url("moutains.png");
     background-color: rgba(18, 41, 57, 255);
     background-size: contain;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom;
 }
